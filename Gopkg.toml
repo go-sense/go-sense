@@ -1,0 +1,25 @@
+[[constraint]]
+  branch = "master"
+  name = "github.com/krolaw/dhcp4"
+
+[[constraint]]
+  name = "github.com/oklog/run"
+  version = "1.0.0"
+
+[[constraint]]
+  name = "go.uber.org/zap"
+  version = "1.9.1"
+
+[[constraint]]
+  name = "github.com/pkg/errors"
+  version = "0.8.0"
+
+[[constraint]]
+  name = "github.com/coreos/etcd"
+  version = "v3.3.10"
+  source = "github.com/etcd-io/etcd"
+
+[[override]]
+  name = "github.com/coreos/bbolt"
+  version = "v1.3.1-coreos.6"
+  source = "github.com/etcd-io/bbolt"
